@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: none;
+}
+
+nav li {
+    @apply rounded-lg p-2 hover:text-gray-500;
+}
